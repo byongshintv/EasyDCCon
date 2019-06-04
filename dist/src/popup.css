@@ -1,0 +1,49 @@
+html{
+    width:200px;
+    height:200px;
+    background:#1e1d1c;
+}
+
+body{
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color:white;
+}
+
+#btnActive:not(.active){
+    border:2px solid #fff;
+    color:#fff;
+}
+
+#btnActive:not(.active):hover{
+    background:#fff;
+    color:#ff4b4b;
+}
+
+
+#btnActive{
+    padding:1em 0.8em;
+    background: transparent;
+    border:2px solid #ff4b4b;
+    border-radius:2px;
+    color:#ff4b4b;
+    transition: all 0.2s;
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+#btnActive:hover{
+    background:#ff4b4b;
+    color:#fff;
+}
+
+#btnActive:focus{
+   outline:none;
+}

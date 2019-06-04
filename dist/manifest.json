@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "EasyDCCon",
+    "version": "1.1",
+    "description": "디시콘 보조툴",
+    "author": "병신TV",
+    "short_name":"이지 디시콘",
+    "content_scripts": [
+        {
+            "matches": ["*://gall.dcinside.com/*"],
+            "js": [
+                "src/main.js"
+            ]
+        }
+    ],
+    "browser_action": {
+        "default_icon": {
+            "19": "icons/size19.png",
+            "38": "icons/size38.png"
+          },
+        "default_popup": "popup.html"
+    }, 
+    "icons": { 
+        "16": "icons/size16.png",
+        "48": "icons/size48.png",
+        "128": "icons/size128.png" 
+    },
+    "permissions": [
+        "activeTab",
+        "storage",
+        "https://gall.dcinside.com/"
+    ]
+}

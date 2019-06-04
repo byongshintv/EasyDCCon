@@ -1,4 +1,4 @@
-# 디씨 스위퍼
+# 이지디시콘
 ![img](./img/promote-large.png)
 [디씨인사이드](https://www.dcinside.com/) 마이너갤러리에서 디시콘을 사용하기 쉽게 도와주는 크롬확장 툴입니다.
 
